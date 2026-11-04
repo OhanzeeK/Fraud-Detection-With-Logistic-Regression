@@ -23,12 +23,11 @@ A short scala script I created for a classwork assignment that uses a logistic r
 <br>
 
 **Usage:**
-<br>
-Place logistic_fraud.csv where the script expects it, or update the path in spark.read...csv(...).
-Run the script in spark-shell or as a Spark application.
+- Place logistic_fraud.csv where the script expects it, or update the path in spark.read...csv(...).
+- Run the script in spark-shell or as a Spark application.
 <br>
 
-**OutputL**
+**Output:**
 - The original data and the test data with assembled features
 - Test-set predictions with the actual label and predicted label for each transaction
 - Accuracy at the 0.5 threshold
